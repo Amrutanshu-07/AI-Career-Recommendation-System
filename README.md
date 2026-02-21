@@ -1,11 +1,9 @@
- AI Career Recommendation System
+### AI Career Recommendation System
 
 An AI-powered web application that analyzes user skills and interests to recommend the Top 3 suitable career paths using Machine Learning.
 
- Repository:
-https://github.com/Amrutanshu-07/AI-Career-Recommendation-System
 
- Project Overview
+ ### Project Overview
 
 Choosing the right career path can be challenging. This system provides intelligent career suggestions by:
 
@@ -19,7 +17,7 @@ Displaying confidence scores with a dynamic web interface
 
 The system uses a supervised machine learning pipeline built with Scikit-learn and deployed using Flask.
 
- Problem Statement
+### Problem Statement
 
 Input:
 
@@ -31,7 +29,7 @@ Output:
 
 Top 3 recommended career paths
 
-Confidence percentage for each suggestion
+### Confidence percentage for each suggestion
 
  Machine Learning Approach
 1️Data Preprocessing
@@ -80,7 +78,7 @@ Pipeline([
     ("clf", LogisticRegression(max_iter=1000))
 ])
 
-This ensures:
+### This ensures:
 
 Clean modular workflow
 
@@ -88,7 +86,7 @@ Automatic preprocessing + classification
 
 Easy saving and deployment
 
- Dataset Information
+### Dataset Information
 
 15 Career Categories
 
@@ -105,32 +103,9 @@ Skills	Interests	Career
 python machine learning	ai research	Data Scientist
 java spring boot	backend systems	Software Engineer
 biology anatomy	healthcare	Doctor
- Project Structure
-AI-Career-Recommendation-System/
-│
-├── app.py
-├── requirements.txt
-├── Procfile
-├── runtime.txt
-│
-├── data/
-│   └── dataset.csv
-│
-├── model/
-│   ├── train_model.ipynb
-│   ├── evaluate.ipynb
-│   ├── predict.ipynb
-│   └── saved_model.pkl
-│
-├── templates/
-│   ├── index.html
-│   └── result.html
-│
-├── static/
-│   ├── style.css
-│   └── script.js
-│
-└── README.md
+
+### Project Structure
+
  Application Workflow
 User Input (Skills + Interests)
         ↓
@@ -141,7 +116,7 @@ Trained ML Model
 Top 3 Career Predictions
         ↓
 Dynamic UI with Confidence Bars
- User Interface Features
+ ### User Interface Features
 
 Modern gradient background
 
@@ -153,7 +128,7 @@ Responsive design
 
 Professional academic UI
 
- Installation & Setup
+ ### Installation & Setup
 1️ Clone Repository
 git clone https://github.com/Amrutanshu-07/AI-Career-Recommendation-System.git
 cd AI-Career-Recommendation-System
@@ -173,54 +148,4 @@ Open in browser:
 http://127.0.0.1:5000
  Deployment
 
-This application is deployment-ready using:
 
-Render
-
-Railway
-
-Heroku
-
-AWS EC2
-
-Docker
-
-Required deployment files included:
-
-Procfile
-
-runtime.txt
-
-requirements.txt
-
-gunicorn
-
-Model Evaluation
-
-Stratified train-test split
-
-Multiclass classification
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-score
-
-Future Improvements
-
-Resume-based career prediction (PDF parsing)
-
-Deep learning embeddings (BERT)
-
-Career skill gap analysis
-
-Database integration
-
-REST API endpoint
-
-User authentication system
-
-Dashboard analytics
