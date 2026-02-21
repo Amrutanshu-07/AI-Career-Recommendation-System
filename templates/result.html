@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <div class="card results-card">
+        <h1>Your Top Career Matches</h1>
+
+        {% for career, score in results %}
+        <div class="result-item">
+            <div class="result-header">
+                <h3>{{ career }}</h3>
+                <span>{{ score }}%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: {{ score }}%"></div>
+            </div>
+        </div>
+        {% endfor %}
+
+        <a href="/" class="back-btn">Try Again</a>
+    </div>
+</div>
+
+</body>
+</html>

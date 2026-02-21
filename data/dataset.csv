@@ -1,0 +1,135 @@
+skills,interests,career
+python machine learning statistics,data analysis ai,Data Scientist
+data mining visualization sql,business intelligence,Data Scientist
+python pandas numpy analytics,predictive modeling,Data Scientist
+statistics r research,academic analytics,Data Scientist
+data cleaning wrangling etl,big data,Data Scientist
+tableau powerbi dashboards,data reporting,Data Scientist
+machine learning regression classification,ai research,Data Scientist
+deep learning tensorflow keras,neural networks,Data Scientist
+
+java spring boot microservices,backend systems,Software Engineer
+c++ algorithms problem solving,system programming,Software Engineer
+python django flask api,web backend,Software Engineer
+javascript nodejs express,server development,Software Engineer
+oop design patterns coding,application development,Software Engineer
+git linux debugging,software systems,Software Engineer
+data structures algorithms coding,problem solving,Software Engineer
+rest api integration backend,web services,Software Engineer
+
+python deep learning cnn rnn,ai innovation,Machine Learning Engineer
+tensorflow pytorch models,ai systems,Machine Learning Engineer
+model deployment mlops,cloud ai,Machine Learning Engineer
+feature engineering optimization,ai pipelines,Machine Learning Engineer
+neural network tuning,deep learning,Machine Learning Engineer
+computer vision opencv,ai robotics,Machine Learning Engineer
+nlp transformers bert,language models,Machine Learning Engineer
+ml pipelines production,ai engineering,Machine Learning Engineer
+
+network security firewall linux,ethical hacking,Cybersecurity Analyst
+penetration testing kali linux,information security,Cybersecurity Analyst
+cyber threat analysis siem,security monitoring,Cybersecurity Analyst
+encryption cryptography protocols,network defense,Cybersecurity Analyst
+incident response malware,security research,Cybersecurity Analyst
+vulnerability scanning tools,cyber defense,Cybersecurity Analyst
+risk assessment auditing,security compliance,Cybersecurity Analyst
+intrusion detection systems,network security,Cybersecurity Analyst
+
+aws ec2 s3 cloudformation,cloud computing,Cloud Engineer
+azure gcp deployment,cloud systems,Cloud Engineer
+docker kubernetes containers,cloud infrastructure,Cloud Engineer
+cloud networking vpc iam,cloud security,Cloud Engineer
+serverless lambda api,cloud architecture,Cloud Engineer
+terraform infrastructure as code,cloud automation,Cloud Engineer
+cloud migration services,distributed systems,Cloud Engineer
+monitoring logging cloudwatch,cloud operations,Cloud Engineer
+
+ci cd pipelines automation,devops practices,DevOps Engineer
+jenkins docker deployment,system automation,DevOps Engineer
+kubernetes helm containers,cloud devops,DevOps Engineer
+ansible configuration management,automation tools,DevOps Engineer
+linux scripting bash,system reliability,DevOps Engineer
+monitoring prometheus grafana,devops monitoring,DevOps Engineer
+infrastructure automation terraform,cloud devops,DevOps Engineer
+continuous integration testing,software release,DevOps Engineer
+
+biology anatomy diagnosis,healthcare medicine,Doctor
+patient care emergency surgery,medical science,Doctor
+clinical research pathology,healthcare research,Doctor
+pharmacology treatment plans,medical practice,Doctor
+hospital management surgery,healthcare systems,Doctor
+cardiology neurology specialization,medical services,Doctor
+public health epidemiology,community healthcare,Doctor
+medical ethics patient safety,health services,Doctor
+
+accounting taxation finance,business accounting,Accountant
+financial reporting auditing,corporate finance,Accountant
+bookkeeping ledger reconciliation,finance management,Accountant
+gst compliance returns,financial compliance,Accountant
+cost accounting budgeting,corporate accounting,Accountant
+balance sheet analysis,finance reporting,Accountant
+income tax planning,account management,Accountant
+audit risk assessment,financial auditing,Accountant
+
+marketing branding advertising,business growth,Marketing Manager
+seo digital marketing analytics,online business,Marketing Manager
+social media campaigns,brand promotion,Marketing Manager
+market research strategy,consumer analysis,Marketing Manager
+product marketing launch,business strategy,Marketing Manager
+email marketing conversion,customer engagement,Marketing Manager
+content strategy storytelling,brand management,Marketing Manager
+performance marketing ads,business marketing,Marketing Manager
+
+ui ux figma prototyping,user experience,UI/UX Designer
+wireframing user testing,interface design,UI/UX Designer
+adobe xd photoshop,creative design,UI/UX Designer
+interaction design usability,product design,UI/UX Designer
+visual design typography,design systems,UI/UX Designer
+mobile app design,app interfaces,UI/UX Designer
+web design responsive,frontend design,UI/UX Designer
+design thinking research,user centric design,UI/UX Designer
+
+leadership strategy planning,business management,Business Analyst
+requirement gathering documentation,business systems,Business Analyst
+stakeholder communication,enterprise planning,Business Analyst
+process improvement workflow,business optimization,Business Analyst
+data driven decisions,business analytics,Business Analyst
+risk analysis planning,corporate strategy,Business Analyst
+project coordination reporting,business operations,Business Analyst
+market analysis forecasting,business insights,Business Analyst
+
+financial modeling valuation,investment banking,Financial Analyst
+stock market equity research,finance markets,Financial Analyst
+portfolio management analysis,asset management,Financial Analyst
+budget forecasting finance,corporate finance,Financial Analyst
+econometrics regression modeling,finance research,Financial Analyst
+investment risk assessment,wealth management,Financial Analyst
+financial planning analysis,corporate strategy,Financial Analyst
+derivatives trading analysis,capital markets,Financial Analyst
+
+mechanical design cad solidworks,automobile engineering,Mechanical Engineer
+thermodynamics fluid mechanics,mechanical systems,Mechanical Engineer
+manufacturing production design,industrial engineering,Mechanical Engineer
+machine design simulation,product engineering,Mechanical Engineer
+robotics kinematics automation,mechanical robotics,Mechanical Engineer
+heat transfer analysis,energy systems,Mechanical Engineer
+engineering drawing tools,mechanical drafting,Mechanical Engineer
+quality control inspection,mechanical manufacturing,Mechanical Engineer
+
+civil construction structural design,infrastructure,Civil Engineer
+building planning architecture,construction engineering,Civil Engineer
+transportation engineering highways,urban development,Civil Engineer
+geotechnical soil testing,foundation engineering,Civil Engineer
+surveying site planning,land development,Civil Engineer
+environmental engineering water,public works,Civil Engineer
+bridge design analysis,structural engineering,Civil Engineer
+construction project management,site supervision,Civil Engineer
+
+teaching curriculum development,education learning,Teacher
+classroom management pedagogy,student engagement,Teacher
+lesson planning evaluation,academic instruction,Teacher
+subject expertise mentoring,education systems,Teacher
+educational research training,learning development,Teacher
+online teaching e learning,digital education,Teacher
+assessment grading evaluation,school education,Teacher
+child psychology guidance,counseling education,Teacher

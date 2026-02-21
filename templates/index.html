@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Career Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>AI Career Recommendation System</h1>
+        <p>Enter your skills and interests to discover your ideal career path.</p>
+
+        <form method="POST">
+            <div class="input-group">
+                <label>Skills</label>
+                <input type="text" name="skills" placeholder="e.g. Python, Machine Learning, Statistics" required>
+            </div>
+
+            <div class="input-group">
+                <label>Interests</label>
+                <input type="text" name="interests" placeholder="e.g. AI, Research, Analytics" required>
+            </div>
+
+            <button type="submit" class="btn">Analyze Career</button>
+        </form>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
