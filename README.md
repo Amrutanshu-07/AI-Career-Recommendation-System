@@ -5,27 +5,27 @@ An AI-powered web application that analyzes user skills and interests to recomme
 
  ### Project Overview
 
-Choosing the right career path can be challenging. This system provides intelligent career suggestions by:
+1. Choosing the right career path can be challenging. This system provides intelligent career suggestions by:
 
-Accepting user skills and interests
+2. Accepting user skills and interests
 
-Processing them using Natural Language Processing (NLP)
+3. Processing them using Natural Language Processing (NLP)
 
-Predicting the top 3 matching careers
+4. Predicting the top 3 matching careers
 
-Displaying confidence scores with a dynamic web interface
+5, Displaying confidence scores with a dynamic web interface
 
-The system uses a supervised machine learning pipeline built with Scikit-learn and deployed using Flask.
+6. The system uses a supervised machine learning pipeline built with Scikit-learn and deployed using Flask.
 
 ### Problem Statement
 
-Input:
+#### Input:
 
-Skills (e.g., Python, Data Analysis, Marketing)
+1. Skills (e.g., Python, Data Analysis, Marketing)
 
-Interests (e.g., AI, Healthcare, Business)
+2. Interests (e.g., AI, Healthcare, Business)
 
-Output:
+#### Output:
 
 Top 3 recommended career paths
 
@@ -34,43 +34,41 @@ Top 3 recommended career paths
  Machine Learning Approach
 1️Data Preprocessing
 
-Skills and interests are merged into a single text feature
+    1. Skills and interests are merged into a single text feature
 
-Text is transformed using TF-IDF Vectorization
+    2. Text is transformed using TF-IDF Vectorization
 
-df["text"] = df["skills"] + " " + df["interests"]
+       df["text"] = df["skills"] + " " + df["interests"]
 2️ Feature Engineering
 
 We use:
 
-TfidfVectorizer(stop_words="english")
+    TfidfVectorizer(stop_words="english")
 
 Why TF-IDF?
 
-Converts text into numerical vectors
+    Converts text into numerical vectors
 
-Highlights important words
+    Highlights important words
 
-Removes common stop words
+    Removes common stop words
 
-Efficient for text classification
+    Efficient for text classification
 
 3️ Model Used
 
-Logistic Regression (Multiclass)
+    1.Logistic Regression (Multiclass)
 
-LogisticRegression(max_iter=1000)
-Why Logistic Regression?
+    2.LogisticRegression(max_iter=1000)
+    3.Why Logistic Regression?
 
-Works well for multiclass classification
+    4.Works well for multiclass classification
 
-Handles sparse TF-IDF vectors efficiently
+    5.Handles sparse TF-IDF vectors efficiently
 
-Provides probability outputs
+    6.Provides probability outputs
 
-Simple and interpretable
-
-Fast training
+S
 
 4️ML Pipeline
 Pipeline([
@@ -80,21 +78,21 @@ Pipeline([
 
 ### This ensures:
 
-Clean modular workflow
+    Clean modular workflow
 
-Automatic preprocessing + classification
+    Automatic preprocessing + classification
 
-Easy saving and deployment
+    Easy saving and deployment
 
 ### Dataset Information
 
-15 Career Categories
+    15 Career Categories
 
-8 Samples per Career
+    8 Samples per Career
 
-Total: 120 records
+    Total: 120 records
 
-Balanced dataset
+    Balanced dataset
 
 Stratified train-test split
 
@@ -118,15 +116,15 @@ Top 3 Career Predictions
 Dynamic UI with Confidence Bars
  ### User Interface Features
 
-Modern gradient background
+    Modern gradient background
+ 
+    Card-based centered layout
 
-Card-based centered layout
+    Animated progress bars
 
-Animated progress bars
-
-Responsive design
-
-Professional academic UI
+    Responsive design
+ 
+    Professional academic UI
 
  ### Installation & Setup
 1️ Clone Repository
