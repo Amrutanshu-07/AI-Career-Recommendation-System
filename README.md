@@ -1,82 +1,137 @@
-#  AI Career Recommendation System
+ AI Career Recommendation System
 
-An AI-powered web application that analyzes user skills and interests to suggest the **Top 3 suitable career paths** using Machine Learning.
+An AI-powered web application that analyzes user skills and interests to recommend the Top 3 suitable career paths using Machine Learning.
 
- Live Demo: (Add your deployed link here)  
-Repository: https://github.com/Amrutanshu-07/AI-Career-Recommendation-System
+ Repository:
+https://github.com/Amrutanshu-07/AI-Career-Recommendation-System
 
----
-
-##  Project Overview
+ Project Overview
 
 Choosing the right career path can be challenging. This system provides intelligent career suggestions by:
 
-- Taking user **skills** and **interests** as input
-- Processing them using NLP techniques
-- Predicting top 3 matching careers
-- Displaying confidence scores with dynamic UI
+Accepting user skills and interests
+
+Processing them using Natural Language Processing (NLP)
+
+Predicting the top 3 matching careers
+
+Displaying confidence scores with a dynamic web interface
 
 The system uses a supervised machine learning pipeline built with Scikit-learn and deployed using Flask.
 
----
+ Problem Statement
 
-##  Problem Statement
+Input:
 
-**Input:**  
-- Skills (e.g., Python, Data Analysis, Marketing)  
-- Interests (e.g., AI, Healthcare, Business)
+Skills (e.g., Python, Data Analysis, Marketing)
 
-**Output:**  
-- Top 3 recommended career paths  
-- Confidence percentage for each suggestion  
+Interests (e.g., AI, Healthcare, Business)
 
----
+Output:
 
-##  Machine Learning Approach
+Top 3 recommended career paths
 
-### 1️ Data Preprocessing
-- Skills and Interests are merged into a single text feature
-- Text cleaned and transformed using **TF-IDF Vectorization**
+Confidence percentage for each suggestion
 
-### 2️ Feature Engineering
-- `TfidfVectorizer(stop_words="english")`
-- Converts text into numerical feature vectors
+ Machine Learning Approach
+1️Data Preprocessing
 
-### 3️ Model Used
-- **Logistic Regression (Multiclass)**
-- Chosen because:
-  - Efficient for text classification
-  - Handles sparse TF-IDF vectors well
-  - Produces probability outputs
-  - Simple and interpretable
+Skills and interests are merged into a single text feature
 
-### 4️ Model Pipeline
+Text is transformed using TF-IDF Vectorization
 
-```python
+df["text"] = df["skills"] + " " + df["interests"]
+2️ Feature Engineering
+
+We use:
+
+TfidfVectorizer(stop_words="english")
+
+Why TF-IDF?
+
+Converts text into numerical vectors
+
+Highlights important words
+
+Removes common stop words
+
+Efficient for text classification
+
+3️ Model Used
+
+Logistic Regression (Multiclass)
+
+LogisticRegression(max_iter=1000)
+Why Logistic Regression?
+
+Works well for multiclass classification
+
+Handles sparse TF-IDF vectors efficiently
+
+Provides probability outputs
+
+Simple and interpretable
+
+Fast training
+
+4️ML Pipeline
 Pipeline([
     ("tfidf", TfidfVectorizer(stop_words="english")),
     ("clf", LogisticRegression(max_iter=1000))
 ])
-Dataset
+
+This ensures:
+
+Clean modular workflow
+
+Automatic preprocessing + classification
+
+Easy saving and deployment
+
+ Dataset Information
 
 15 Career Categories
 
 8 Samples per Career
 
-Total: 120 samples
+Total: 120 records
 
 Balanced dataset
 
-Stratified train-test split used
+Stratified train-test split
 
-Example:
-
+Example Dataset Entries
 Skills	Interests	Career
 python machine learning	ai research	Data Scientist
 java spring boot	backend systems	Software Engineer
 biology anatomy	healthcare	Doctor
-
- Web Application Flow
+ Project Structure
+AI-Career-Recommendation-System/
+│
+├── app.py
+├── requirements.txt
+├── Procfile
+├── runtime.txt
+│
+├── data/
+│   └── dataset.csv
+│
+├── model/
+│   ├── train_model.ipynb
+│   ├── evaluate.ipynb
+│   ├── predict.ipynb
+│   └── saved_model.pkl
+│
+├── templates/
+│   ├── index.html
+│   └── result.html
+│
+├── static/
+│   ├── style.css
+│   └── script.js
+│
+└── README.md
+ Application Workflow
 User Input (Skills + Interests)
         ↓
 Flask Backend
@@ -85,29 +140,26 @@ Trained ML Model
         ↓
 Top 3 Career Predictions
         ↓
-Dynamic UI with Progress Bars
- UI Features
+Dynamic UI with Confidence Bars
+ User Interface Features
 
 Modern gradient background
 
-Card-based layout
+Card-based centered layout
 
 Animated progress bars
 
 Responsive design
 
-Clean professional interface
+Professional academic UI
 
  Installation & Setup
-1️Clone Repository
+1️ Clone Repository
 git clone https://github.com/Amrutanshu-07/AI-Career-Recommendation-System.git
 cd AI-Career-Recommendation-System
 2️ Install Dependencies
 pip install -r requirements.txt
-3️ Train Model (If Needed)
-
-Open Jupyter Notebook:
-
+3️ Train Model (If Required)
 jupyter notebook
 
 Run:
@@ -121,7 +173,7 @@ Open in browser:
 http://127.0.0.1:5000
  Deployment
 
-This project is deployment-ready using:
+This application is deployment-ready using:
 
 Render
 
@@ -133,7 +185,7 @@ AWS EC2
 
 Docker
 
-Deployment files included:
+Required deployment files included:
 
 Procfile
 
@@ -141,9 +193,9 @@ runtime.txt
 
 requirements.txt
 
-gunicorn configuration
+gunicorn
 
- Evaluation Metrics
+Model Evaluation
 
 Stratified train-test split
 
@@ -155,11 +207,11 @@ Precision
 
 Recall
 
-F1-Score
+F1-score
 
- Future Improvements
+Future Improvements
 
-Resume (PDF) based prediction
+Resume-based career prediction (PDF parsing)
 
 Deep learning embeddings (BERT)
 
@@ -169,6 +221,6 @@ Database integration
 
 REST API endpoint
 
-Dashboard analytics
-
 User authentication system
+
+Dashboard analytics
